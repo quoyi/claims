@@ -1,0 +1,14 @@
+AllCops:
+  NewCops: disable
+  TargetRubyVersion: 2.6.6
+  Exclude:
+    - 'test/dummy/bin/*'
+    - 'test/dummy/config/puma.rb'
+    - 'test/dummy/db/**/*'
+    - 'test/dummy/node_modules/**/*'
+
+Metrics/AbcSize:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
